@@ -1,0 +1,42 @@
+:root{
+    --body-background : #B09E99;
+    --card-background : #D7CECC;
+    --text-color : #6C757D;
+    --button-background : #64B6AC;
+    --button-color : #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: var(--body-background);
+    height: 100vh;
+}
+
+#card{
+    width: 50vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: var(--card-background);
+}
+
+button{
+    background-color: var(--button-background);
+}
+
+p{
+    color: var(--button-background);
+}
+
+@media(max-width: 750px){
+    #card{
+        width: 90%;
+    }   
+}
